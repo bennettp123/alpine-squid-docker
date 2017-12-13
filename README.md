@@ -49,3 +49,4 @@ docker build -t bennettp123/tas-squid:latest .
 docker run -d -p 3128:3128 bennettp123/tas-squid:latest
 ```
 
+Once complete, update any DNS records, if necessary.
