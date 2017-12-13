@@ -16,7 +16,7 @@ the inbound rules in the security group.
 
 Steps to create:
 
-First, create the docker machine:
+First, create the docker host:
 
 ```bash
 docker-machine create \
