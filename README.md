@@ -34,7 +34,7 @@ Next, add the following inbound rule to the security group:
 
 (Replace `103.196.84.250` with the public IP of `mfmaster`
 and `mfworker`. In this case, it was determined using
-`curl -L http://whatsmyip.com`.)
+`curl https://api.ipify.org`.)
 
 Do use a specific host or subnet, not 0.0.0.0/0. You don't want
 an open proxy.
