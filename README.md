@@ -36,8 +36,11 @@ Next, add the following inbound rule to the security group:
 and `mfworker`. In this case, it was determined using
 `curl -L http://whatsmyip.com`.)
 
-Do use the specific IP, not 0.0.0.0/0. You don't want an open
-proxy.
+Do use a specific host or subnet, not 0.0.0.0/0. You don't want
+an open proxy.
+
+While you're at it, consider locking down the other inbound
+ports too, especially port 22 (ssh).
 
 Finally, build and deploy the docker container:
 
